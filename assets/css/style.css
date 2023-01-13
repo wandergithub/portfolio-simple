@@ -184,11 +184,9 @@ p {
 # Header
 -------------------------------------------------------------- */
 #header {
-  transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
   background-color: #fff;
-  top: -100%;
   box-shadow: 0 2px 25px rgba(0, 0, 0, 0.08);
 }
 
@@ -269,7 +267,7 @@ p {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+.navbar li:hover>a {
   color: #b8a07e;
 }
 
@@ -303,11 +301,11 @@ p {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul li:hover>a {
   color: #b8a07e;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -319,7 +317,7 @@ p {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -331,7 +329,7 @@ p {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover > ul {
+  .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
 }
@@ -402,7 +400,7 @@ p {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
   color: #b8a07e;
 }
 
@@ -437,11 +435,11 @@ p {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul li:hover>a {
   color: #b8a07e;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
 
@@ -449,9 +447,17 @@ p {
 # Hero
 -------------------------------------------------------------- */
 #hero {
-  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
-  height: 100vh;
-  width: 100%;
+  background: url(../img/home-bg.jpg) repeat scroll center center/cover;
+  height: 70vh;
+  background-size: cover;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border: 5px solid #b69e7c;
+  -webkit-box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 75%);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 13px 54px 25px 68px rgb(182 158 125 / 75%);
+  margin-top: 100px;
 }
 
 #hero .hero-content {
@@ -527,11 +533,11 @@ p {
   font-size: 14px;
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #6c757d;
@@ -778,7 +784,7 @@ p {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
 
@@ -891,7 +897,7 @@ p {
   font-weight: 600;
 }
 
-.php-email-form .error-message br + br {
+.php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -1147,6 +1153,7 @@ blockquote {
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (min-width: 768px) and (max-width: 991px) {
+
   /* Navbar */
   nav {
     padding: 10px 15px;
@@ -1229,6 +1236,7 @@ blockquote {
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 767px) {
+
   /* Navbar */
   nav {
     padding: 20px 15px;
@@ -1311,6 +1319,7 @@ blockquote {
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 600px) {
+
   /* Navbar */
   nav {
     padding: 20px 15px;
@@ -1393,6 +1402,7 @@ blockquote {
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 480px) {
+
   /* Navbar */
   nav {
     padding: 20px 15px;
@@ -1474,6 +1484,7 @@ blockquote {
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 320px) {
+
   /* Navbar */
   nav {
     padding: 20px 15px;
