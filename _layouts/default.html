@@ -1,8 +1,3 @@
----
-footer_path: footer.html
-header_path: header.html
----
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,12 +35,12 @@ header_path: header.html
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
-{% include {{ page.header_path }} %}
+{% include footer.html %}
 <body>
     <h1>{{ page.title }}</h1>
     <section>
         {{ content }}
     </section>
 </body>
-  {% include {{ page.footer_path }} %}
+  {% include header.html %}
 </html>
