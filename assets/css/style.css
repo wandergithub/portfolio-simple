@@ -450,14 +450,16 @@ p {
   background: url(../img/home-bg.jpg) repeat scroll center center/cover;
   height: 70vh;
   background-size: cover;
-  border-radius: 100px;
+  background-repeat: no-repeat;
+  background-position: 100% 40%;;
+  border-radius: 100%;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border: 5px solid #b69e7c;
   -webkit-box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 75%);
   -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 13px 54px 25px 68px rgb(182 158 125 / 75%);
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 #hero .hero-content {
