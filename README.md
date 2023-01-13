@@ -27,10 +27,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="src/assets/img/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Wander Gonzalez Portfolio</b></h3>
 
 </div>
 
@@ -255,9 +255,18 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+Credits to:
 
-I would like to thank...
+
+Template Name: Folio
+
+Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+
+Author: BootstrapMade.com
+
+License: https://bootstrapmade.com/license/
+
+Where I got the initial template for free.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
