@@ -14,7 +14,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -67,15 +69,26 @@
                 <div class="swiper-slide">
                   <img src="{{ page.image1 }}" alt="">
                 </div>
-
+                {% if page.image2 %}
                 <div class="swiper-slide">
                   <img src="{{ page.image2 }}" alt="">
                 </div>
-
+                {% endif %}
+                {% if page.image3 %}
+                <div class="swiper-slide">
+                  <img src="{{ page.image3 }}" alt="">
+                </div>
+                {% endif %}
+                {% if page.image4 %}
                 <div class="swiper-slide">
                   <img src="{{ page.image4 }}" alt="">
                 </div>
-
+                {% endif %}
+                {% if page.image5 %}
+                <div class="swiper-slide">
+                  <img src="{{ page.image5 }}" alt="">
+                </div>
+                {% endif %}
               </div>
               <div class="swiper-pagination"></div>
             </div>
@@ -88,6 +101,9 @@
                 <li><strong>Build with</strong>: {{ page.stack }}</li>
                 <li><strong>Fully tested with</strong>: {{ page.test }}</li>
                 <li><strong><a href="{{ page.github_link }}" target="_blank">Github Repo</a></strong></li>
+                {% if page.live_link %}
+                <li><strong><a href="{{ page.live_link }}" target="_blank">Live Demo</a></strong></li>
+                {% endif %}
               </ul>
             </div>
             <div class="portfolio-description">
