@@ -99,7 +99,9 @@
               <h3>Project information</h3>
               <ul>
                 <li><strong>Build with</strong>: {{ page.stack }}</li>
+                {% if page.test %}
                 <li><strong>Fully tested with</strong>: {{ page.test }}</li>
+                {% endif %}
                 <li><strong><a href="{{ page.github_link }}" target="_blank">Github Repo</a></strong></li>
                 {% if page.live_link %}
                 <li><strong><a href="{{ page.live_link }}" target="_blank">Live Demo</a></strong></li>
