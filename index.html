@@ -341,17 +341,16 @@
                 <h2 class="mb-30">GET IN TOUCH</h2>
 
                 <ul class="contact-details">
-                  <li><span>23 Main, Street</span></li>
-                  <li><span>New York, United States</span></li>
-                  <li><span>+88 01912704287</span></li>
-                  <li><span>example@example.com</span></li>
+                  <li><span>Santo Domingo, Republica Dominicana</span></li>
+                  <li><span>+1 849 631 6566 </span></li>
+                  <li><span>wandergonzalez0@hotmail.com</span></li>
                 </ul>
 
               </div>
             </div>
 
             <div class="col-lg-6">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <form id="contact-form" class="php-email-form">
                 <div class="row gy-3">
 
                   <div class="col-lg-6">
@@ -382,8 +381,7 @@
 
                   <div class="col-lg-12">
                     <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                    <div id="success"></div>
                   </div>
 
                   <div class="mt-0">
@@ -400,6 +398,8 @@
 
   </main><!-- End #main -->
   {% include footer.html %}
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="/assets/js/form.js"></script>
 </body>
 
 </html>
