@@ -833,6 +833,7 @@ p {
 
 .journal-block .journal-info img {
   max-width: 100%;
+  height: 252px;
 }
 
 .journal-block .journal-info .journal-txt {
