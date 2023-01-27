@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="src/assets/img/logo.png" alt="logo" width="140"  height="auto" />
+  <img src="assets/img/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Wander Gonzalez Portfolio</b></h3>
