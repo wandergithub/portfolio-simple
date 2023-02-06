@@ -647,6 +647,19 @@ p {
   background-color: #b8a07e;
 }
 
+.main-skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
 /* --------------------------------------------------------------
 # Portfolio
 -------------------------------------------------------------- */
